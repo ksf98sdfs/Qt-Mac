@@ -50,6 +50,7 @@ jobs:
           -no-securetransport \
           -no-cups \
           -no-fontconfig \
+          -no-freetype \
           -no-harfbuzz \
           -no-gtk \
           -no-opengl \
