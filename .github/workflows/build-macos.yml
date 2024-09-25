@@ -126,7 +126,7 @@ jobs:
       - name: Install Qt ${{ env.Qt_patch_version }}
         working-directory: qt-everywhere-src-${{ env.Qt_patch_version }}
         run: |
-          make install
+          sudo make install
           
       - uses: actions/checkout@v4
       - name: Build project
